@@ -63,3 +63,14 @@ form {
     font-size: 2em;
   }
 }
+
+#output {
+  background-color: orange;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  border-radius: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
