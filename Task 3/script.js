@@ -22,5 +22,15 @@ button.addEventListener("click", () => {
         const login = info.login;
         const avatar = info.avatar_url;
         const img = document.createElement("img");
+        img.classList.add("image");
+        img.src = avatar;
+        const listLogin = document.createElement("div");
+        listLogin.classList.add("login");
+        listLogin.innerHTML = login;
 
+        document.getElementById("output").append(listLogin);
+        document.getElementById("output").append(img);
+      });
+    });
+  document.getElementById("message").style.visibility = "hidden";
 });
