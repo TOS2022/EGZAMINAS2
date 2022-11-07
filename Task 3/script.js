@@ -12,3 +12,15 @@ būti stilizuota su CSS ir būti responsive;
 -------------------------------------------------------------------------- */
 
 const ENDPOINT = 'https://api.github.com/users';
+const button = document.getElementById("btn");
+
+button.addEventListener("click", () => {
+  fetch(ENDPOINT)
+    .then((response) => response.json())
+    .then((createCards) => {
+      createCards.forEach((info) => {
+        const login = info.login;
+        const avatar = info.avatar_url;
+        const img = document.createElement("img");
+
+});
