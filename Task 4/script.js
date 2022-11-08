@@ -35,4 +35,4 @@ function createCarList(carsObject) {
     console.log(cars);
   });
 }
-/*BŪTINA įsijunkti LIVE-SERVER ADDON mes kitaip mes errorą jei iš *.html failo atidarinėjama.*/
+/*BŪTINA įsijunkti LIVE-SERVER ADDON nes kitaip mes errorą jei iš *.html failo atidarinėjama.*/
